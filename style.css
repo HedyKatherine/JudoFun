@@ -1,0 +1,103 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+/* The hero image */
+/* les têtes sont coupées, il faut revoir la taille de la photo */
+.hero-image {
+/* for a darken background effect to make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("judo_banner.jpg");
+
+/* Set a specific height */
+height: 70%;
+/* to position and center the image to scale on all screens but does it really work???*/
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+z-index: 4;
+margin-top: 3.8%;
+}
+
+/* text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-family: 'Gamja Flower', cursive;
+font-size: 4rem;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  position: absolute;
+  top: 60%;  
+}
+
+/* Actualités */
+.rectangle_rouge{
+  width: 100%;
+  height: 120px;
+  background: #EE4423;
+  position: relative;
+
+}
+h2{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 30px;
+  padding: 10px;
+  font-family:'Gamja Flower', cursive;
+  font-size: 1.7em;
+  color: white;
+}
+/* The Slideshow */
+
+.slideshow{
+  overflow: hidden;
+  
+}
+.slideshow figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slideshow infinite;
+}
+/* faut trouver une solution pour que les photos soient toutes de la même taille!! */
+.slideshow figure img{
+  float: left;
+  
+  object-fit: cover;
+
+}
+@keyframes slideshow{
+  0%{
+    left: 0;
+  }
+  18%{
+      left: 0;
+    }
+  32%{
+    left: -100%
+  }
+  50%{
+    left: -100%
+  }
+  64%{
+    left: -200%
+  }
+  82%{
+    left: -200%
+  }
+  96%{
+    left:-300%
+  }
+  100%{
+    left: -300%
+  }
+}
