@@ -1,0 +1,166 @@
+/*Add a font-size and/or change font-family*/
+body{
+    width: 100%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Navbar Fixed Top*/
+header{
+    display: flex;
+    position: fixed;
+    border: 1px solid black;
+    width: 100%;
+    background-color: #EF4423;
+    height: 70px;
+    overflow: hidden;
+    top: 0%;
+}
+nav ul li {
+    display: inline-block;
+    text-align: right;
+}
+nav{
+    position: relative; 
+    left: 20%;
+    margin: auto;   
+}
+nav a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+}
+nav a:hover {
+    color: white;
+}
+#logoJudo{
+    margin-left:2%;
+}
+section{
+    margin-top: 70px;
+}
+article h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #332B29;
+    color: white;
+    height: 40px;
+    padding-top: 25px;
+}
+article p{
+    margin: 2% 1%;
+}
+article ul li{
+padding: 5px;
+}
+span{
+    display: block;
+    text-align: center;
+}
+strong{
+    display: inline-block;
+}
+.imagesJudo{
+    display: flex;
+    margin-left: 5px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.center p, a{
+    text-decoration: none;
+}
+/*Navbar Fixed bottom*/
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    border: 1px solid black;
+    width: 100%;
+    background-color: #EF4423;
+    overflow: hidden;
+    height: 70px;
+    border: 1px solid black;
+}
+footer h3{
+    margin-left: 5%;
+    padding-right: 1%;
+    font-size: 1.7em;
+    font-family: 'Gamja Flower', cursive; 
+}
+.logoDescodeuses{
+    position: relative;
+    bottom: 120px;
+    left: 35%;
+}
+.right{
+    margin-left: 35%;
+    width: 30%;
+}
+
+h2 {
+    color: white;
+    font-size: 1.7em;
+    background-color: #332B29;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.inscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte {
+    font-size: 1em;
+    margin-left: -100px;
+    margin-right: 300px;
+}
+
+#enfant {
+    width: 600px;
+    margin-right: -100px;
+}
+.gridhoraire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.kidscombat {
+    margin-left: -150px;
+    width: 500px;
+    margin-right: 400px;
+}
+.plan {
+    margin-left: 300px;
+}
+.adresse {
+    font-size: 1.7em;
+    margin-left: 300px;
+}
