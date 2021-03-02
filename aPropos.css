@@ -1,0 +1,104 @@
+/*Add a font-size and/or change font-family*/
+body{
+    width: 100%;
+    margin: 0%;
+}
+h1, h2{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.7em;
+}
+/*Navbar Fixed Top*/
+header{
+    display: flex;
+    position: fixed;
+    border: 1px solid black;
+    width: 100%;
+    background-color: #EF4423;
+    height: 70px;
+    overflow: hidden;
+    top: 0%;
+}
+nav ul li {
+    display: inline-block;
+    text-align: right;
+    font-family: 'Gamja Flower', cursive;
+}
+nav{
+    position: relative; 
+    left: 20%;
+    margin: auto;   
+}
+nav a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: white;
+}
+#logoJudo{
+    margin-left:2%;
+}
+section{
+    margin-top: 70px;
+}
+article h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #332B29;
+    color: white;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+article p{
+    margin: 3% 2%;
+}
+article ul li{
+padding: 5px;
+}
+span{
+    display: block;
+    text-align: center;
+}
+strong{
+    display: inline-block;
+}
+.imagesJudo{
+    display: flex;
+    margin-left: 5px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.center p, a{
+    text-decoration: none;
+}
+/*Navbar Fixed bottom*/
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    border: 1px solid black;
+    width: 100%;
+    background-color: #EF4423;
+   overflow: hidden;
+   height: 70px;
+    border: 1px solid black;
+}
+footer h2{
+    margin-left: 5%;
+    padding-right: 1%;
+}
+.logoDescodeuses{
+    position: relative;
+    bottom: 110px;
+    left: 40%;
+}
+.right{
+    margin-left: 35%;
+    width: 30%;
+}
+
